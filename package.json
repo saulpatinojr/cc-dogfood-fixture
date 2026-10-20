@@ -1,0 +1,10 @@
+{
+  "name": "cc-dogfood-fixture",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A three-file Node project for Code Conductor dogfood runs: no dependencies, Node's built-in test runner, one gate that finishes in a second.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}
